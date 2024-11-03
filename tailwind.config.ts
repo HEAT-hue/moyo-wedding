@@ -8,6 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      padding: {
+        inlinePage: "20px",
+        blockPage: "25px"
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
