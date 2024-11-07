@@ -116,11 +116,6 @@ const ImageGrid: React.FC<Props> = ({ images }) => {
               alt={selectedImage.caption || "Modal image"}
               className="max-h-[80vh] w-auto rounded-lg m-auto"
             />
-            {selectedImage.caption && (
-              <div className="text-white text-center mt-4 p-2">
-                {selectedImage.caption}
-              </div>
-            )}
           </div>
         </div>
       )}

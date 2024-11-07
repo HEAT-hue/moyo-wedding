@@ -29,9 +29,6 @@ const YouTubeEmbed: React.FC<YouTubeEmbedProps> = ({
           className="w-full h-full"
         ></iframe>
       </div>
-      <p className="bg-[#0A112F] p-2 text-[#fff] text-center">
-        Warning!!! Don&apos;t you dare click on the pictures below.
-      </p>
     </div>
   );
 };
