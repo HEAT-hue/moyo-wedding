@@ -5,6 +5,7 @@ import Image from "next/image";
 import OwambeDance from "../../public/assets/owambe-dance.gif";
 import ProgramFlower from "../../public/svgs/programFlower.svg";
 import Mileke from "../../public/assets/mileke.jpg";
+import CopyIcon from "../../public/assets/copy.png";
 import { useState } from "react";
 
 const ViewMap = () => {
@@ -67,11 +68,11 @@ const ViewMap = () => {
               Event Program
             </p>
             <ul className="opacity-50">
-              <li>Friday: Engagement - 12 PM</li>
-              <li>Saturday: Church - 11 AM</li>
-              <li>Saturday: Follows immediately after church</li>
+              <li>Engagement: Friday - 12 PM</li>
+              <li>Church: Saturday - 11 AM</li>
+              <li>Reception: Follows immediately after church</li>
             </ul>
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2 cursor-pointer">
               <Image
                 src={Mileke}
                 alt="mileke"
@@ -82,6 +83,7 @@ const ViewMap = () => {
               <p className="opacity-70" onClick={handleCopyNumber}>
                 Mileke: 08100550405
               </p>
+              <Image src={CopyIcon} alt="" width={20} height={20}/>
               {copyNumber && (
                 <span className="text-sm text-green-500 mt-1">Copied!</span>
               )}
