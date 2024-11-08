@@ -62,7 +62,7 @@ const ViewMap = () => {
                         alt="program-flower"
                         className="absolute right-0 top-0 z-20"
                     />
-                    <div className="flex flex-col justify-center h-full pb-[4rem] pl-[4rem] gap-4 max-[485px]:pb-[2rem] max-[485px]:pl-[2rem] max-[485px]:pb-[1rem] max-[485px]:pl-[1rem]">
+                    <div className="flex flex-col justify-center md:justify-start h-full pb-[4rem] pl-[4rem] gap-4 max-[485px]:pb-[2rem] max-[485px]:pl-[2rem] max-[485px]:pb-[1rem] max-[485px]:pl-[1rem]">
                         <p
                             className={`font-[tangerine] text-[4rem] mt-3 opacity-10 max-[694px]:text-[3rem] max-[485px]:text-[2rem]`}
                         >
