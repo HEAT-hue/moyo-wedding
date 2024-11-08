@@ -13,7 +13,7 @@ const ViewMap = () => {
                         })
                     }>
                     </div >
-                </Link>
+                </Link>n
             </div>
         </div>
     )
