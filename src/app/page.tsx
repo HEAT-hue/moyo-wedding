@@ -15,15 +15,15 @@ export default function Home() {
       <HeroSection />
       <ViewMap />
       <ImageSlider />
-      <Registry/>
+      <Registry />
       <div className="h-max">
-        <YouTubeEmbed videoId="Gntw1sB1FoQ"/>
+        <YouTubeEmbed videoId="Gntw1sB1FoQ" />
       </div>
-      <ImageGrid images={gridImages}/>
-      <Footer/>
-      <ScrollingText/>
+      <ImageGrid images={gridImages} />
+      <Footer />
+      <ScrollingText />
       <div className="fixed bottom-[1rem] right-[1rem] z-40">
-        <WeddingBell/>
+        <WeddingBell />
       </div>
     </div>
   );
